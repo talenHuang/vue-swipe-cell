@@ -5,7 +5,12 @@
     <a @touchstart="touchStart" @touchmove="touchMove" @touchend="touchEnd">
 
       <div class="cell-content">
-        <span>{{title}}</span>
+
+        <slot name="content">
+
+          <span>{{title}}</span>
+
+        </slot>
 
         <div class="right-btn" ref="rightBtn" @touchstart.stop>
 
