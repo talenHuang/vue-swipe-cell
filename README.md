@@ -60,7 +60,7 @@ export default {
 ```
 
 效果如下：
-![](./dist/del.gif)
+![](./assets/del.gif)
 
 - 也可自定义操作组件
 
@@ -96,4 +96,4 @@ export default {
 ```
 
 效果如下：
-![](./dist/add.gif)
+![](./assets/add.gif)
