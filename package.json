@@ -1,7 +1,7 @@
 {
   "name": "vue-swipe-cell",
   "description": "It is a vue component about swiper cell",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "talen",
   "license": "MIT",
   "private": false,
@@ -13,6 +13,10 @@
     "swipe-cell"
   ],
   "main": "dist/swipe-cell.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/talenHuang/vue-swipe-cell.git"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
