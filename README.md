@@ -39,6 +39,7 @@ _中文_
 默认监听事件:`del`
 
 _English_
+
 | property |effect | example |
 |--------|------------------|------------------------------------------- |
 | title | cell`s left value | \<swipe-cell :title="title">\</swipe-cell> |
