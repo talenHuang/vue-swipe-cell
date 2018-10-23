@@ -1,26 +1,33 @@
 # vue-swipe-cell
 
-> it is a vue component about swiper cell
-> <br>
 > 这是一个滑动删除的 vue 列表组件，兼容 Android4.4.4 以上（部分 Android4.4.0）webview，比较简单快捷，欢迎大家提 issue，如果觉得对您有帮助，请不要吝啬您的小星星！
+> <br>
+
+> It is a vue component about swiper cell and compatible above of Android4.4.4(part of Android4.4.0) webview. it`s so convenient. it is my pleasure if you submit issues. It is also important to give me a start if that is helpful to you!
 
 ## Build Setup
 
 ```bash
 # 安装依赖
+#install  dependenties
 npm install vue-swipe-cell
 
 #引入依赖
+#import dependenties
 import swipeCell from 'vue-swipe-cell';
 
 #使用依赖
+#use dependenties
 Vue.use(swipeCell);
 
 #直接在页面引用组件
+#use component on page directly
 <swipe-cell></swipe-cell>
 ```
 
 ## How to Use
+
+_中文_
 
 | 属性                           | 作用                    | 例子                                              |
 | ------------------------------ | ----------------------- | ------------------------------------------------- |
@@ -31,9 +38,20 @@ Vue.use(swipeCell);
 
 默认监听事件:`del`
 
+_English_
+| property |effect | example |
+| ------------------------------ | ----------------------- | ------------------------------------------------- |
+| title | cell`s left value | \<swipe-cell :title="title">\</swipe-cell> |
+| del event | cell (default event is delete) | \<swipe-cell @del="">\</swipe-cell> |
+| slot(default slot) | action button customize | as follow demo |
+| slot(name='content')(content slot) | content customize | as follow demo |
+
+default listening event:`del`
+
 ## Demo
 
 - 无需自己配置，拿来即用，可以参考如下写法
+- can`t configure,you can copy to use directly
 
 ```javascript
 <template>
@@ -64,6 +82,7 @@ export default {
 ![](https://i.imgur.com/LRSvwAO.gif)
 
 - 也可自定义操作组件（默认插槽）
+- you can also configure action button slot customly,as follows:
 
 ```javascript
 <template>
@@ -100,6 +119,7 @@ export default {
 ![](https://i.imgur.com/N9qM2w8.gif)
 
 - 也可以自定义内容
+- you can also configure content customly,as follows:
 
 ```javascript
 <template>
