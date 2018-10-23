@@ -40,7 +40,7 @@ _中文_
 
 _English_
 | property |effect | example |
-| ------------------------------ | ----------------------- | ------------------------------------------------- |
+|--------|------------------|------------------------------------------- |
 | title | cell`s left value | \<swipe-cell :title="title">\</swipe-cell> |
 | del event | cell (default event is delete) | \<swipe-cell @del="">\</swipe-cell> |
 | slot(default slot) | action button customize | as follow demo |
