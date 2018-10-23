@@ -3,7 +3,7 @@
 > 这是一个滑动删除的 vue 列表组件，兼容 Android4.4.4 以上（部分 Android4.4.0）webview，比较简单快捷，欢迎大家提 issue，如果觉得对您有帮助，请不要吝啬您的小星星！
 > <br>
 
-> It is a vue component about swiper cell and compatible above of Android4.4.4(part of Android4.4.0) webview. it`s so convenient. it is my pleasure if you submit issues. It is also important to give me a start if that is helpful to you!
+> It is a vue component about swiper cell and compatible above of Android4.4.4(part of Android4.4.0) webview. it`s so convenient. it is my pleasure if you submit issues. It is also important to give me a star if that is helpful to you!
 
 ## Build Setup
 
